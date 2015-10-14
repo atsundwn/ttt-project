@@ -1,0 +1,55 @@
+body {
+  -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+      box-sizing: border-box;
+  background-color: lightblue;
+}
+
+h1 {
+  text-align: center;
+  font-family: verdana;
+  font-size: 70px;
+}
+
+.board {
+  height: 480px;
+  width: 480px;
+  background-color: lavender;
+  position: relative;
+  top: 0px;
+  left: 50px;
+}
+
+.box {
+  float: left;
+  height: 150px;
+  width: 150px;
+  margin: 5px;
+  background-color: grey;
+  text-align: center;
+  font-size: 8em;
+}
+
+.left-col {
+  clear: left;
+}
+
+.middle-col {
+  clear: left;
+}
+
+.right-col {
+  clear: left;
+}
+
+.turnMsg {
+  height: 70px;
+  width: 350px;
+  text-align: center;
+  font-size: 50px;
+  background-color: aquamarine;
+  position: relative;
+  top: -270px;
+  left: 550px;
+}
+
