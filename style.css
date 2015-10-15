@@ -43,7 +43,7 @@ h1 {
 }
 
 .turnMsg {
-  height: 70px;
+  height: 120px;
   width: 350px;
   text-align: center;
   font-size: 50px;
@@ -53,3 +53,10 @@ h1 {
   left: 550px;
 }
 
+button {
+  height: 45px;
+  width: 100px;
+  position: relative;
+  top: -250px;
+  left: 670px;
+}
