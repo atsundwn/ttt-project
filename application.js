@@ -11,6 +11,13 @@ $(document).ready(function() {
     $('#msgBox').text('O\'s Turn to Start');
     $('.box').text('');
     $('.box').bind('click', clickHandler);
+    $('.box').hover(
+      function() {
+        $(this).css('background-color', 'lightslategrey');
+      },
+      function() {
+        $(this).css('background-color', 'cornflowerblue');
+    });
   }
 
   var clickHandler = function() {
