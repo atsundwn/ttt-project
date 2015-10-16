@@ -15,9 +15,11 @@ h1 {
   height: 480px;
   width: 480px;
   background-color: lavender;
+  padding: 5px;
   position: relative;
   top: 0px;
-  left: 50px;
+  left: 10px;
+  margin: 15px;
 }
 
 .box {
@@ -42,14 +44,31 @@ h1 {
   clear: left;
 }
 
-.turnMsg {
+#result {
+  height: 60ex;
+  width: 80%;
+  margin: 0 auto;
+}
+
+#apiBox {
   height: 120px;
   width: 370px;
   text-align: center;
-  font-size: 50px;
-  background-color: aquamarine;
+  font-size: 20px;
+  background-color: lightblue;
   position: relative;
-  top: -330px;
+  top: -550px;
+  left: 550px;
+}
+
+.turnMsg {
+  height: 80px;
+  width: 370px;
+  text-align: center;
+  font-size: 50px;
+  background-color: lightblue;
+  position: relative;
+  top: -320px;
   left: 550px;
 }
 
@@ -57,6 +76,11 @@ button {
   height: 45px;
   width: 100px;
   position: relative;
-  top: -300px;
+  top: -410px;
   left: 680px;
+}
+
+form {
+  position: relative;
+  left: 30px;
 }
