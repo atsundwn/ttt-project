@@ -8,16 +8,18 @@ body {
 h1 {
   text-align: center;
   font-family: verdana;
-  font-size: 70px;
+  font-size: 60px;
 }
 
 .board {
   height: 480px;
   width: 480px;
   background-color: lavender;
+  padding: 5px;
   position: relative;
   top: 0px;
-  left: 50px;
+  left: 10px;
+  margin: 15px;
 }
 
 .box {
@@ -25,7 +27,7 @@ h1 {
   height: 150px;
   width: 150px;
   margin: 5px;
-  background-color: grey;
+  background-color: cornflowerblue;
   text-align: center;
   font-size: 8em;
 }
@@ -42,14 +44,43 @@ h1 {
   clear: left;
 }
 
-.turnMsg {
-  height: 70px;
-  width: 350px;
+#result {
+  height: 60ex;
+  width: 80%;
+  margin: 0 auto;
+}
+
+#apiBox {
+  height: 120px;
+  width: 370px;
   text-align: center;
-  font-size: 50px;
-  background-color: aquamarine;
+  font-size: 20px;
+  background-color: lightblue;
   position: relative;
-  top: -270px;
+  top: -550px;
   left: 550px;
 }
 
+.turnMsg {
+  height: 80px;
+  width: 370px;
+  text-align: center;
+  font-size: 50px;
+  background-color: lightblue;
+  position: relative;
+  top: -320px;
+  left: 550px;
+}
+
+button {
+  height: 45px;
+  width: 100px;
+  position: relative;
+  top: -410px;
+  left: 680px;
+}
+
+form {
+  position: relative;
+  left: 30px;
+}
