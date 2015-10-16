@@ -1,4 +1,4 @@
-# ttt-project
+# Tic-Tac-Toe Project
 
 Here is a link to my game.  https://atsundwn.github.io/ttt-project/
 
